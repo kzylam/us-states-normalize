@@ -1,0 +1,38 @@
+{
+  "name": "us-states-normalize",
+  "version": "1.0.0",
+  "description": "A library to normalize and convert any variations of US state names and abbreviations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/batashi/us-states-normalize.git"
+  },
+  "keywords": [
+    "us",
+    "states",
+    "abbr",
+    "abbreviations",
+    "postal",
+    "zip",
+    "code",
+    "name",
+    "convert",
+    "normalize"
+  ],
+  "author": "Kyle Lam <kzylam@gmail.com> (http://www.kylelam.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/batashi/us-states-normalize/issues"
+  },
+  "homepage": "https://github.com/batashi/us-states-normalize#readme",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0"
+  }
+}

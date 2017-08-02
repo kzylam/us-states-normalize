@@ -32,7 +32,7 @@ normalize('RI', { returnType: 'name' });                              // 'Rhode 
 normalize('DC', {                                                     // 'Washington DC'
   returnType: function(states) {
     // states is a key:value store with keys as USPS codes and values as the full names
-    states['DC'] = 'Washington DC'; // default was { "DC": "District Of Columbia" }
+    states['DC'] = 'Washington DC'; // default was { "DC": "District of Columbia" }
     return states;
    }
 });
@@ -71,7 +71,7 @@ CA - California
 CO - Colorado
 CT - Connecticut
 DE - Delaware
-DC - District Of Columbia
+DC - District of Columbia
 FL - Florida
 GA - Georgia
 HI - Hawaii
